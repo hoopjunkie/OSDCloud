@@ -18,7 +18,7 @@ Write-Output "Not in TS"
 
 $Manufacturer = (Get-WmiObject -Class:Win32_ComputerSystem).Manufacturer
 $Model = (Get-WmiObject -Class:Win32_ComputerSystem).Model
-$CompanyName = "GARYTOWN"
+$CompanyName = "HOOPVILLE"
 $Serial = (Get-WmiObject -class:win32_bios).SerialNumber
 
 if ($Manufacturer -match "Lenovo")
