@@ -30,7 +30,7 @@ if(-not (Test-Path "HKLM:\Software\Microsoft\Windows\CurrentVersion\OEMInformati
 
 
 #Download Logo from GitHub
-$LogoURL = "https://raw.githubusercontent.com/gwblok/garytown/master/OSD/CloudOSD/logo.bmp"
+$LogoURL = "https://raw.githubusercontent.com/hoopjunkie/OSDCloud/raw/refs/heads/main/logo.bmp"
 Invoke-WebRequest -UseBasicParsing -Uri $LogoURL -OutFile "$env:TEMP\logo.bmp"
 
 #Copy the file into place
